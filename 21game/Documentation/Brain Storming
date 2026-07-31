@@ -1,4 +1,4 @@
-How i thought of this project:
+Brain Storming:
 First i had the idea of the player entering the numbers then the computer then it'll be added to an array which will be checked constantly through the game loop but i thought that that was bad since it may take long for checking, so i had a much better idea with better time complexity at least from what i think by using functions:
 
 i had 3 elements to make:
