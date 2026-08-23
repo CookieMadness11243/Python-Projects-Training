@@ -1,3 +1,5 @@
+State of project: still isn't complete :(, let's hope that my future self completes it
+
 // __init__.file documentations
   this file contains the functions of both the player and computer and how they'll play with a set of rules
   first the input:
