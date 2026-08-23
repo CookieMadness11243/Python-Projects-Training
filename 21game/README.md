@@ -1,4 +1,4 @@
-
+// __init__.file documentations
   this file contains the functions of both the player and computer and how they'll play with a set of rules
   first the input:
         guess = input("Enter your play(1-3 consecutive nums): ")
@@ -25,4 +25,33 @@ and i still haven't worked on the computer's func:
 ```
           def computer_function():
               pass
+```
+
+
+// 21game.file documentation
+
+ ```first i grab the libraries:
+	from __init__ import player_function, computer_function
+	import random
+```
+ ```then i assigned the values:
+	turn = random.randint(1, 2)
+	player_turn = False
+	computer_turn = False
+```
+```set the loop:
+	game_loop = True
+	while game_loop:
+```
+then the code itself
+i first grabbed a random integer to set which should play first
+```if it's the computer then it'll be true if player then it'll be true:
+    if turn == 1:
+        player_turn = True
+    else:
+        computer_turn = True
+```
+```then called the function itself which contains the player rules and inputs
+    if player_turn == True:
+        player_function()
 ```
