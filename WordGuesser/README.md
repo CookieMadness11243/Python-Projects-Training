@@ -1,3 +1,5 @@
+State of project: Complete, (with some problems) but the main product is finished
+
 How i made this project:
 
 first of all i brought the idea on a notebook and i wrote the following:
