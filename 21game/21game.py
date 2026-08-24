@@ -8,21 +8,18 @@
 # import asyncio
 from __init__ import player_function, computer_function
 import random
-turn = random.randint(1, 2)
+turn = random.randint(0, 1)  # 0 for computer & 1 for player
 #print(turn)
 player_turn = False
 computer_turn = False
 
 game_loop = True
 while game_loop:
-    if turn == 1:
-        player_turn = True
-    else:
-        computer_turn = True
-    if player_turn == True:
+    if turn:  # executes only if turn is 1
         player_function()
     else:
         computer_function()
+    
     player_turn = False
     computer_turn = False
     game_loop = False
